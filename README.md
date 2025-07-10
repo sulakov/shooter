@@ -1,9 +1,9 @@
-# 📘 Shooter (FPS Game)
+#  Shooter (FPS Game)
 
 > **Author:** Eugen Sulakov  
 > *This is a robot shooter I originally wrote for my son about a year ago. At the time, everything was crammed into one long spaghetti script. Recently I decided to clean it up and turn it into a structured project.*
 
-## 🕹️ What is this?
+##  What is this?
 
 A small 3D first-person shooter game written in **Python** using the **Ursina Engine**.  
 The player controls a robot, shoots enemy bots, and progresses through levels.  
@@ -11,7 +11,7 @@ Each new level adds more enemies, and the game ends in victory after level 5.
 
 ![Screenshot](screenshot.png)
 
-## ⚙️ Project Architecture
+##  Project Architecture
 
 The code is modular and separated into logical components:
 
@@ -25,7 +25,7 @@ The code is modular and separated into logical components:
 | `hud.py`         | user interface (text, buttons, messages)     |
 | `scene.py`       | builds terrain, walls, and level boundaries  |
 
-## 🎮 Gameplay
+##  Gameplay
 
 - Move: `WASD`, Jump: `Space`
 - Shoot: `Left Mouse Button`
@@ -34,7 +34,7 @@ The code is modular and separated into logical components:
 - Press `Escape` to quit the game
 - You can **restart** the game without restarting the app
 
-## 🖼️ Textures & Audio
+##  Textures & Audio
 
 All textures, models, and sound effects are from **free and open sources**:
 
@@ -44,11 +44,6 @@ All textures, models, and sound effects are from **free and open sources**:
 
 Please replace or license assets properly if reusing this project.
 
-## 🚀 How to Run
+##  How to Run
 
 You’ll need Python 3.10+ and `ursina` installed.
-
-```bash
-pip install ursina
-python main.py
-```
