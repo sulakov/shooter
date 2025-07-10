@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ursina cache folders
+*.ursina
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.~*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Database or local storage (если вдруг будет)
+*.db
+*.sqlite3
+
+# Assets user-generated
+assets/saves/
+assets/tmp/

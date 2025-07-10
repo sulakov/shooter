@@ -9,6 +9,8 @@ A small 3D first-person shooter game written in **Python** using the **Ursina En
 The player controls a robot, shoots enemy bots, and progresses through levels.  
 Each new level adds more enemies, and the game ends in victory after level 5.
 
+![Screenshot](screenshot.png)
+
 ## ⚙️ Project Architecture
 
 The code is modular and separated into logical components:
