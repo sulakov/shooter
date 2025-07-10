@@ -36,11 +36,7 @@ The code is modular and separated into logical components:
 
 ##  Textures & Audio
 
-All textures, models, and sound effects are from **free and open sources**:
-
-- [opengameart.org](https://opengameart.org)
-- [freesound.org](https://freesound.org)
-- Built-in Ursina assets
+All textures, models, and sound effects are from **free and open sources**
 
 Please replace or license assets properly if reusing this project.
 
